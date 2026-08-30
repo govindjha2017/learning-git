@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      *,
+	  *::after,
+	  *::before {
+        margin: 0;
+        padding: 0;
+      }
+      #nav {
+        height: 75px;
+        background-color: #f7f4ed;
+        border-bottom: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .link {
+        /* border: 2px solid red; */
+        margin-right: 65px;
+      }
+
+      .logo {
+        /* border: 2px solid red; */
+        margin-left: 65px;
+      }
+
+      .link a {
+        color: black;
+        text-decoration: none;
+        font-size: 1.1em;
+        margin-right: 15px;
+      }
+
+      #spclLink {
+        background-color: black;
+        color: white;
+        padding: 7px 14px;
+        border-radius: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav id="nav">
+      <div class="logo">
+        <h1>Medium</h1>
+      </div>
+      <div class="link">
+        <a href="#">Our Story</a>
+        <a href="#">Membership</a>
+        <a href="#">Write</a>
+        <a href="#">Sign in</a>
+        <a id="spclLink" href="#">Get started</a>
+      </div>
+    </nav>
+  </body>
+</html>
